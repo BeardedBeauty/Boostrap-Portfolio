@@ -3,10 +3,73 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>#</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>John Ochs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand bluu" id="white" href="#">John Ochs</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">contact <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <div class="">
+    <main class="container bg-light">
+      <section class="row">
+        <div class="col-md-8 offset-2">
+          <article class="block">
+            <h1 class="block-header tblue fontbaby">contact</h1>
+            <hr>
+            <form>
+              <div class="form-group">
+                <label for="name1">name</label>
+                <input type="name" class="form-control" id="name1" aria-describedby="emailHelp"
+                  placeholder="Rad McStardust">
+              </div>
+              <div class="form-group">
+                <label for="email1">email</label>
+                <input type="email" class="form-control" id="email1" placeholder="sick.gnarley@solidbro.com">
+              </div>
+              <div class="form-group">
+                <label for="message">message:</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+          </article>
+          <button type="button" class="btn btn-secondary">Submit</button>
+        </div>
+      </section>
+      <div class="push"></div>
+    </main>
+  </div>
+
+  <footer class="footer feet ab py-4">
+    <div class="container">
+      <p class="text-muted text-center">
+        © John Ochs 2019
+      </p>
+    </div>
+  </footer>
 </body>
